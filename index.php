@@ -1,5 +1,5 @@
 <?php
-include ("api.php");
+include "api.php";
 ?>
 <!DOCTYPE html>
 <html lang="">
