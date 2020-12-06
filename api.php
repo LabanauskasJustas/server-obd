@@ -1,10 +1,10 @@
 <?php
 
 define("DB_SERVER", "localhost");
-$dbServer = 'localhost';
-$dbUser = 'root';
-$dbPass = '';
-$dbName = 'obd';
+$dbServer = 'remotemysql.com';
+$dbUser = 'fxWCqUYK77';
+$dbPass = 'mZcjnSKwRB';
+$dbName = 'remotemysql.com';
 
 $dsn = 'mysql:host=' . $dbServer . ';dbname=' . $dbName;
 $connection = new PDO($dsn, $dbUser, $dbPass);
